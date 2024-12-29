@@ -1,0 +1,65 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--background-color);
+    color: var(--text-color);
+}
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+[data-theme="dark"] {
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: var(--background-color);
+    border-bottom: 2px solid var(--text-color);
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+/* Logo styles */
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+/* Chat container */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#chatbox {
+    min-height: 300px;
+    border: 1px solid var(--text-color);
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .logo {
+        height: 40px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+}
