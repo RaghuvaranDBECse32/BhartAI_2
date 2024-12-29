@@ -1,0 +1,17 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey there"],
+        "responses": ["Hello! How can I assist you with your studies?"]
+    },
+    {
+        "tag": "materials",
+        "patterns": ["Provide study materials", "Give me syllabus", "Anna University R2021 materials"],
+        "responses": ["Please specify the semester or subject for detailed materials."]
+    },
+    {
+        "tag": "farewell",
+        "patterns": ["Goodbye", "Bye", "See you later"],
+        "responses": ["Goodbye! Have a great day."]
+    }
+]
